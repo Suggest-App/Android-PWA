@@ -1,0 +1,308 @@
+{
+  "general": {
+    "userAgentRegexes": [],
+    "replaceStrings": [],
+    "nativeBridgeUrls": [],
+    "languages": [],
+    "userAgentAdd": "gonative",
+    "enableWindowOpen": true,
+    "forceScreenOrientation": "portrait",
+    "forceUserAgent": "",
+    "publicKey": "xwqyab",
+    "deviceRegKey": "pj357z3e4gqzry2n9wn0dbveq4",
+    "appName": "Suggest",
+    "initialUrl": "https://suggest-app.com",
+    "iosBundleId": "io.gonative.ios.xwqyab",
+    "androidPackageName": "io.gonative.android.xwqyab",
+    "iosUserAgentAdd": "gonative",
+    "androidUserAgentAdd": "gonative",
+    "androidForceUserAgent": "",
+    "iosForceUserAgent": "",
+    "iosFullScreenWebview": true,
+    "androidFullScreen": true,
+    "iosCustomHeaders": {},
+    "androidCustomHeaders": {},
+    "version": 11
+  },
+  "navigation": {
+    "tabNavigation": {
+      "tabSelectionConfig": [],
+      "tabMenus": [],
+      "active": false
+    },
+    "sidebarNavigation": {
+      "menuSelectionConfig": {
+        "redirectLocations": [
+          {
+            "regex": ".*",
+            "menuName": "default",
+            "loggedIn": true
+          }
+        ]
+      },
+      "menus": [
+        {
+          "active": false,
+          "items": [],
+          "name": "default"
+        }
+      ]
+    },
+    "regexInternalExternal": {
+      "rules": [
+        {
+          "internal": false,
+          "label": "Non-web links",
+          "regex": "^(?!https?://).*"
+        },
+        {
+          "internal": false,
+          "label": "Facebook",
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com.*"
+        },
+        {
+          "internal": false,
+          "label": "Twitter",
+          "regex": "https?://([-\\w]+\\.)*twitter\\.com/.*"
+        },
+        {
+          "internal": false,
+          "label": "Instagram",
+          "regex": "https?://([-\\w]+\\.)*instagram\\.com/.*"
+        },
+        {
+          "internal": false,
+          "label": "Google Maps",
+          "regex": "https?://maps\\.google\\.com.*"
+        },
+        {
+          "internal": false,
+          "label": "Google Maps Search",
+          "regex": "https?://([-\\w]+\\.)*google\\.com/maps/search/.*"
+        },
+        {
+          "internal": false,
+          "label": "LinkedIn",
+          "regex": "https?://([-\\w]+\\.)*linkedin\\.com/.*"
+        },
+        {
+          "internal": true,
+          "label": "All Other Links",
+          "regex": ".*"
+        }
+      ],
+      "active": true
+    },
+    "androidPullToRefresh": false,
+    "iosPullToRefresh": false,
+    "navigationTitles": {
+      "titles": [],
+      "active": true
+    },
+    "ignorePageFinishedRegexes": [],
+    "androidShowRefreshButton": false,
+    "iosShowRefreshButton": false,
+    "deepLinkDomains": {
+      "domains": [],
+      "enableAndroidApplinks": false
+    },
+    "navigationLevels": {
+      "levels": [],
+      "active": true
+    },
+    "toolbarNavigation": {
+      "enabled": false,
+      "visibilityByPages": "allPages",
+      "visibilityByBackButton": "backButtonActive",
+      "regexes": [
+        {
+          "enabled": true,
+          "regex": ".*"
+        }
+      ],
+      "items": [
+        {
+          "system": "back",
+          "titleType": "defaultText",
+          "visibility": "allPages",
+          "urlRegex": [
+            {
+              "enabled": true,
+              "regex": ".*"
+            }
+          ]
+        },
+        {
+          "system": "refresh",
+          "enabled": false,
+          "visibility": "allPages",
+          "urlRegex": [
+            {
+              "enabled": true,
+              "regex": ".*"
+            }
+          ]
+        },
+        {
+          "system": "forward",
+          "enabled": false,
+          "titleType": "defaultText",
+          "visibility": "allPages",
+          "urlRegex": [
+            {
+              "enabled": true,
+              "regex": ".*"
+            }
+          ]
+        }
+      ]
+    },
+    "redirects": [],
+    "iosShowOfflinePage": true,
+    "iosConnectionOfflineTime": 10,
+    "androidShowOfflinePage": true,
+    "androidConnectionOfflineTime": 10,
+    "actionConfig": {
+      "actions": [
+        {
+          "id": "1",
+          "items": []
+        }
+      ],
+      "actionSelection": [
+        {
+          "id": "1",
+          "label": "Default Top Nav Bar",
+          "regex": ".*",
+          "custom": false
+        }
+      ],
+      "active": true
+    },
+    "iosOfflinePageHtml": "",
+    "androidOfflinePageHtml": "",
+    "offlinePageHtml": "",
+    "iosSettings": {}
+  },
+  "styling": {
+    "iosLaunchScreen": {
+      "backgroundColor": "#0E0E0E",
+      "backgroundColorDark": "#0E0E0E",
+      "backgroundImage": "https://s3.amazonaws.com/gonativeio/images_generated/1679938990625_8vy5kgman2zre_0E0E0E_1_2x2.png",
+      "backgroundImageDark": "https://s3.amazonaws.com/gonativeio/images_generated/1679938990626_h9kmgwf1v28mm_0E0E0E_1_2x2.png",
+      "centerImage": "https://gonativeio.s3.amazonaws.com/uploads/8zmq64g5mcv6u_1679938791865.png",
+      "centerImageDark": "https://gonativeio.s3.amazonaws.com/uploads/8zmq64g5mcv6u_1679938791865.png"
+    },
+    "transitionInteractiveDelayMax": 0.2,
+    "menuAnimationDuration": 0.15,
+    "androidShowSplash": true,
+    "disableAnimations": false,
+    "hideWebviewAlpha": 0.5,
+    "iosDarkMode": "auto",
+    "iosTitleColor": "#333333",
+    "iosTitleColorDark": "#adc5dc",
+    "iosTintColor": "#FA8231",
+    "iosTintColorDark": "#FA8231",
+    "iosSidebarTextColor": "#333333",
+    "iosSidebarTextColorDark": "#adc5dc",
+    "iosStatusBarBackgroundColor": "#0E0E0E",
+    "iosStatusBarBackgroundColorDark": "#0E0E0E",
+    "iosEnableBlurInStatusBar": false,
+    "iosSidebarBackgroundColor": "#f8f8f8",
+    "iosSidebarBackgroundColorDark": "#333333",
+    "iosNavigationBarTintColor": "#f8f8f8",
+    "iosNavigationBarTintColorDark": "#333333",
+    "iosTabBarTintColor": "#f8f8f8",
+    "iosTabBarTintColorDark": "#333333",
+    "icon": "https://gonativeio.s3.amazonaws.com/uploads/8zmq64g5mcv6u_1679938791865.png",
+    "iosHeaderImage": "https://gonativeio.s3.amazonaws.com/uploads/8zmq64g5mcv6u_1679938791865.png",
+    "showActionBar": false,
+    "showNavigationBar": false,
+    "iosSidebarFont": "Default",
+    "androidHideTitleInActionBar": false,
+    "navigationTitleImage": false,
+    "iosTheme": "default",
+    "androidTheme": "auto",
+    "androidBackgroundColor": "#FFFFFF",
+    "androidSidebarBackgroundColor": "#FFFFFF",
+    "androidSidebarForegroundColor": "#1E496E",
+    "androidActionBarBackgroundColor": "#FFFFFF",
+    "androidActionBarForegroundColor": "#1E496E",
+    "androidPullToRefreshColor": "#1E496E",
+    "androidAccentColor": "#FA8231",
+    "androidSidebarSeparatorColor": "#CCCCCC",
+    "androidSidebarHighlightColor": "#1E496E",
+    "androidTabBarBackgroundColor": "#FFFFFF",
+    "androidTabBarTextColor": "#949494",
+    "androidTabBarIndicatorColor": "#1E496E",
+    "androidTabPressedBackgroundColor": "#CCCCCC",
+    "androidStatusBarBackgroundColor": "#0E0E0E",
+    "androidShowLogoInSideBar": true,
+    "androidShowAppNameInSideBar": true,
+    "androidSwipeNavigationBackgroundColor": "#FFFFFF",
+    "androidSwipeNavigationActiveColor": "#000000",
+    "androidSwipeNavigationInactiveColor": "#666666",
+    "androidActionBarBackgroundColorDark": "#333333",
+    "androidStatusBarBackgroundColorDark": "#0E0E0E",
+    "androidActionBarForegroundColorDark": "#FFFFFF",
+    "androidAccentColorDark": "#FA8231",
+    "androidBackgroundColorDark": "#333333",
+    "androidSidebarForegroundColorDark": "#FFFFFF",
+    "androidSidebarBackgroundColorDark": "#333333",
+    "androidSidebarSeparatorColorDark": "#666666",
+    "androidSidebarHighlightColorDark": "#FFFFFF",
+    "androidPullToRefreshColorDark": "#FFFFFF",
+    "androidTabBarTextColorDark": "#FFFFFF",
+    "androidTabBarBackgroundColorDark": "#333333",
+    "androidTabBarIndicatorColorDark": "#666666",
+    "androidTabPressedBackgroundColorDark": "#999999",
+    "androidSwipeNavigationBackgroundColorDark": "#333333",
+    "androidSwipeNavigationActiveColorDark": "#FFFFFF",
+    "androidSwipeNavigationInactiveColorDark": "#666666",
+    "androidSplashBackgroundColor": "#0E0E0E",
+    "androidSplashBackgroundColorDark": "#0E0E0E",
+    "androidWebviewTextZoom": null,
+    "iosIcon": "https://gonativeio.s3.amazonaws.com/uploads/8zmq64g5mcv6u_1679938791865.png",
+    "iosStatusBarStyle": "auto",
+    "iosEnableOverlayInStatusBar": false,
+    "androidStatusBarStyle": "auto",
+    "androidEnableOverlayInStatusBar": false,
+    "androidIcon": "https://gonativeio.s3.amazonaws.com/uploads/8zmq64g5mcv6u_1679938791865.png",
+    "navigationTitleImageLocation": "images/logo1_white_padded.png",
+    "navigationTitleImageLocationDark": "images/logo1_white_padded.png",
+    "androidHeaderImage": "images/logo1_white_padded.png",
+    "androidHeaderImageDark": "images/logo1_white_padded.png",
+    "iosHeaderImageDark": "https://gonativeio.s3.amazonaws.com/uploads/8zmq64g5mcv6u_1679938791865.png",
+    "androidLaunchImages": {
+      "mdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1679938990873_6rp0dnhex2g56_180x180.9.png",
+      "hdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1679938990874_n6a834dd3cgvw_270x270.9.png",
+      "xhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1679938990901_jj8r3frhpf1y0_360x360.9.png",
+      "xxhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1679938990901_17m7b3bwak9jp_540x540.9.png",
+      "xxxhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1679938990901_tfk6g62yzjkcr_720x720.9.png"
+    },
+    "androidLaunchImagesDark": {
+      "mdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1679938990902_6h6dzrpamjdcr_180x180.9.png",
+      "hdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1679938990902_a7g3wzgfwfph8_270x270.9.png",
+      "xhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1679938990902_mguhce9xnam5p_360x360.9.png",
+      "xxhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1679938990902_70zdr0wvm7vj8_540x540.9.png",
+      "xxxhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1679938990902_4k3fzeffv636y_720x720.9.png"
+    }
+  },
+  "permissions": {
+    "usesGeolocation": false,
+    "androidDownloadToPublicStorage": false,
+    "enableWebRTC": false,
+    "iosLocationUsageDescription": "",
+    "iosCameraUsageDescription": "",
+    "iOSATTUserTrackingDescription": "",
+    "iOSRequestATTConsentOnLoad": false
+  },
+  "developmentTools": {
+    "enableWebConsoleLogs": false
+  },
+  "services": {
+    "oneSignal": {
+      "active": false
+    }
+  }
+}
