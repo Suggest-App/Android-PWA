@@ -69,8 +69,8 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 33
-        applicationId "io.gonative.android.xwqyab"
-        versionCode 7
+        applicationId "com.suggest.app"
+        versionCode 11
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
 
